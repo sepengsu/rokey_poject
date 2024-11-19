@@ -11,3 +11,13 @@
 #### [Week2 협동1: DART 플랫폼(두산로보틱스)을 활용한 협동로봇 동작 운영 실습](https://github.com/sepengsu/rokey_week2_ws)
 #### [Week3 협동2: ROS-2 프로그램을 활용한 협동로봇 동작 운영 실습](https://github.com/sepengsu/rokey_week3_ws)
 
+### 꿀팁 
+
+```
+ros2 service list |grep AAA  
+```
+이 코드는 특정 서비스의 리스트들을 확인해주는 방법 
+```
+ros2 service type AAA
+```
+이 코드는 특정 서비스의 타입들을 확인하여 어떻게 

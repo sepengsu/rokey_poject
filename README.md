@@ -13,11 +13,17 @@
 
 ### 꿀팁 
 
+
 ```
-ros2 service list |grep AAA  
+ros2 service list | grep AAA  
 ```
 이 코드는 특정 서비스의 리스트들을 확인해주는 방법 
 ```
 ros2 service type AAA
 ```
-이 코드는 특정 서비스의 타입들을 확인하여 어떻게 
+이 코드는 특정 서비스의 타입들을 확인하여 어떤 것들로 call할지 확인한다.
+
+```
+ros2 service call AAA BBB "{}"
+```
+이거로 call하면 됨 

@@ -15,21 +15,3 @@
 #### [Week6 주행2: SLAM 모델 기반 다중이용시설 로봇 주행 장애물 인식 모델 개발](https://github.com/sepengsu/rokey_week6_ws)
 #### [Week7 주행3:  Fullfilment 가상 서비스 환경 실습](https://github.com/sepengsu/rokey_week7_ws)
 #### [Week8 지능2: AI 비전 감시 간이 시스템 구축](https://github.com/sepengsu/rokey_week8_ws)
-
-### 꿀팁 
-https://github1s.com/  
-github에서 이걸로 바뀌면 vscode 형식으로 볼 수 있음 
-
-```
-ros2 service list | grep AAA  
-```
-이 코드는 특정 서비스의 리스트들을 확인해주는 방법 
-```
-ros2 service type AAA
-```
-이 코드는 특정 서비스의 타입들을 확인하여 어떤 것들로 call할지 확인한다.
-
-```
-ros2 service call AAA BBB "{}"
-```
-이거로 call하면 됨 
